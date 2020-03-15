@@ -29,7 +29,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./front:/usr/src/app
-    command: sh -c "cd front && yarn start"
+    command: sh -c "cd front-ts && yarn start"
     ports:
       - "8000:3000"
 volumes:
