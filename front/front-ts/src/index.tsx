@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from './Components/Game';
+import App from './App';
+import Example from './Components/Example'
 
-ReactDOM.render(<Game />, document.getElementById('root'));
+ReactDOM.render(<Example />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
